@@ -1,4 +1,5 @@
-import math def rownianie_kwadratowe(a, b, c):
+import math
+def rownianie_kwadratowe(a, b, c):
     if a == 0 and b == 0:
         return None
     if a == 0:
