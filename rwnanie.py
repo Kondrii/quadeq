@@ -18,10 +18,8 @@ def rownianie_kwadratowe(a, b, c):
         x1 = (-b - math.sqrt(delta))/(2.*a)
         x2 = (-b + math.sqrt(delta))/(2.*a)
         print "This equation has two solutions:", x1, x2
-        return x1, x2 a, b, c = input("Enter the a, b and c separeted by commas: ")
-
-
-
+        return x1, x2
+    
 a = float(sys.argv[1])
 b = float(sys.argv[2])
 c = float(sys.argv[3])
